@@ -36,3 +36,15 @@ source ~/.zshrc
 ```
 exec zsh
 ```
+
+---
+
+## 복구 및 취소 시
+### zshrc 파일 오픈
+```
+vi ~/.zshrc
+```
+아래 소스 삭제 또는 주석처리
+```
+source $HOME/.dotfiles/.zshrc.dotfiles
+```
