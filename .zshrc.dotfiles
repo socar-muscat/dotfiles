@@ -1,0 +1,6 @@
+# 자동완성 초기화 (이미 compinit 되어 있다면 생략 가능)
+autoload -Uz compinit
+compinit
+
+# make 타겟 자동완성 스크립트 불러오기
+source "$HOME/.dotfiles/completions/make_completion.zsh"
