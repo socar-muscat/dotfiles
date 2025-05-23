@@ -26,3 +26,13 @@ chmod +x install.sh
 ```
 ./install.sh
 ```
+
+### 적용 
+```
+source ~/.zshrc
+```
+
+### 터미널 재시작 또는 exec zsh
+```
+exec zsh
+```
